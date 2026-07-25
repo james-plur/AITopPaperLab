@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A searchable catalogue of top AI and systems conference papers.">
+  <title>AI Top Paper Lab</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <div class="bar">
+      <a class="brand" href="/">AI Top Paper Lab</a>
+      <input id="query" type="search" placeholder="Search titles, techniques, authors, and abstracts">
+      <select id="venue" aria-label="Venue"><option value="">All venues</option></select>
+      <select id="year" aria-label="Year"><option value="">All years</option></select>
+    </div>
+  </header>
+  <main>
+    <div class="summary"><span id="status">Loading papers…</span></div>
+    <section id="papers" aria-live="polite"></section>
+    <nav class="pager" aria-label="Pagination">
+      <button id="previous" type="button">Previous</button>
+      <span id="page"></span>
+      <button id="next" type="button">Next</button>
+    </nav>
+  </main>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
+

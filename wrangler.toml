@@ -1,0 +1,8 @@
+name = "ai-top-paper-lab"
+compatibility_date = "2026-07-24"
+pages_build_output_dir = "./public"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "ai-top-paper-lab"
+database_id = "9a4f4633-5d87-4d53-b120-bc3868dff6ad"
