@@ -1,5 +1,5 @@
 node_modules/
 .wrangler/
+.publish-data/
 .dev.vars
 .DS_Store
-
